@@ -1,28 +1,30 @@
-# Week 1 - Challenge 1
+# Week 1 - Challenge 2
 
-## Git & GitHub
+## HTML
 
-En este ejercicio vas a crear un nuevo proyecto que albergará tu ejercicio de "Cartas" precurso/semana 0. 
+Este es un challenge para hacer por parejas. El objetivo es crear con HTML (y nada de CSS) una web con cuatro páginas:
 
-1. Crea una nueva carpeta en tu disco duro para el nuevo proyecto, y abre esta carpeta en el Code.
-2. Crea un repositorio en tu cuenta de GitHub. El repo debe llamarse 202309-w1ch1-tunombre-tuapellido (p.e., 202309-w1ch1-pepe-gonzalez).
-3. En la nueva carpeta, inicializa un repositorio Git.
-4. Vincula tu repositorio local con tu repositorio remoto de GitHub.
-5. En la carpeta aún vacía, crea los archivos iniciales necesarios (`.editorconfig` y `.gitignore`).
-6. Crea un commit con estos dos archivos y sube la rama principal al repositorio remoto.
-7. Crea un nuevo site en Vercel y vincúlalo con el repo que has creado en GitHub para que se despliegue (_deploy_) automáticamente. Éste será tu entorno de _producción_.
+Home
+Quiénes somos
+Nuestros CV
+Contacto
+Todas las páginas deben tener la misma cabecera, con los siguientes elementos:
 
-8. En tu repo local, crea una rama auxiliar por cada ejercicio o parte del ejercicio llamada `feature/<exercise>` y vete a ella.
-9.  Añade los archivos de tu ejercicio del precurso.
-10. Crea un commit con todos los archivos.
-11. Mergea el trabajo de la rama auxiliar en la rama principal y borra la auxiliar.
+Nombre de la web
+Menú de navegación con links para ir a las tres secciones
+Por lo que se refiere a las diferentes páginas:
 
-Puedes probar a modificar algo en la rama main antes de los merges.
+La home puede llevar el contenido que queráis.
 
-12. Sube los cambios de la rama principal al repo y comprueba que se han desplegado los cambios a producción. Comprueba también si la web se ve y funciona bien en ese entorno.
+La sección Quiénes somos debe contener tres fichas, una para cada miembro, y en cada ficha debe aparecer
 
+una foto,
+el nombre y
+alguna información.
+La sección Nuestros CV debe contener vuestros dos CV.
 
-Extra
------
+La sección Contacto debe llevar un formulario que pida
 
-Lo mismo con el pasapalabra en el repo anterior
+Nombre
+Email (tiene que ser obligatorio)
+Comentarios
